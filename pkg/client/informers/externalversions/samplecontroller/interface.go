@@ -19,8 +19,8 @@ limitations under the License.
 package samplecontroller
 
 import (
-	internalinterfaces "github.com/aerogear/mobile-config-controller/pkg/client/informers/externalversions/internalinterfaces"
-	v1alpha1 "github.com/aerogear/mobile-config-controller/pkg/client/informers/externalversions/samplecontroller/v1alpha1"
+	internalinterfaces "github.com/aerogear/mobile-controller/pkg/client/informers/externalversions/internalinterfaces"
+	v1alpha1 "github.com/aerogear/mobile-controller/pkg/client/informers/externalversions/samplecontroller/v1alpha1"
 )
 
 // Interface provides access to each of this group's versions.

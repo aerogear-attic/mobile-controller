@@ -33,9 +33,9 @@ import (
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/client-go/tools/record"
 
-	samplecontroller "github.com/aerogear/mobile-config-controller/pkg/apis/samplecontroller/v1alpha1"
-	"github.com/aerogear/mobile-config-controller/pkg/client/clientset/versioned/fake"
-	informers "github.com/aerogear/mobile-config-controller/pkg/client/informers/externalversions"
+	samplecontroller "github.com/aerogear/mobile-controller/pkg/apis/samplecontroller/v1alpha1"
+	"github.com/aerogear/mobile-controller/pkg/client/clientset/versioned/fake"
+	informers "github.com/aerogear/mobile-controller/pkg/client/informers/externalversions"
 )
 
 var (

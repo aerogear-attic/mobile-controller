@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/aerogear/mobile-config-controller",
+	"ImportPath": "github.com/aerogear/mobile-controller",
 	"GoVersion": "go1.9",
 	"GodepVersion": "v80",
 	"Packages": [

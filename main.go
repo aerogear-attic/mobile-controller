@@ -29,7 +29,7 @@ import (
 
 	clientset "github.com/aerogear/mobile-crd-client/pkg/client/mobile/clientset/versioned"
 	informers "github.com/aerogear/mobile-crd-client/pkg/client/mobile/informers/externalversions"
-	"github.com/aerogear/mobile-config-controller/pkg/signals"
+	"github.com/aerogear/mobile-controller/pkg/signals"
 )
 
 var (

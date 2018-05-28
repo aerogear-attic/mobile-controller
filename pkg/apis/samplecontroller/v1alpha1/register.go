@@ -21,7 +21,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	samplecontroller "github.com/aerogear/mobile-config-controller/pkg/apis/samplecontroller"
+	samplecontroller "github.com/aerogear/mobile-controller/pkg/apis/samplecontroller"
 )
 
 // SchemeGroupVersion is group version used to register these objects
