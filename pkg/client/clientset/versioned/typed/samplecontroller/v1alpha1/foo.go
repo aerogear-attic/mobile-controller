@@ -23,8 +23,8 @@ import (
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"
 	rest "k8s.io/client-go/rest"
-	v1alpha1 "k8s.io/sample-controller/pkg/apis/samplecontroller/v1alpha1"
-	scheme "k8s.io/sample-controller/pkg/client/clientset/versioned/scheme"
+	v1alpha1 "github.com/aerogear/mobile-config-controller/pkg/apis/samplecontroller/v1alpha1"
+	scheme "github.com/aerogear/mobile-config-controller/pkg/client/clientset/versioned/scheme"
 )
 
 // FoosGetter has a method to return a FooInterface.

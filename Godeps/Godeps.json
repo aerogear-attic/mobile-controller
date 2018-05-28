@@ -1,5 +1,5 @@
 {
-	"ImportPath": "k8s.io/sample-controller",
+	"ImportPath": "github.com/aerogear/mobile-config-controller",
 	"GoVersion": "go1.9",
 	"GodepVersion": "v80",
 	"Packages": [

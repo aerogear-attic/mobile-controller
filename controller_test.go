@@ -33,9 +33,9 @@ import (
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/client-go/tools/record"
 
-	samplecontroller "k8s.io/sample-controller/pkg/apis/samplecontroller/v1alpha1"
-	"k8s.io/sample-controller/pkg/client/clientset/versioned/fake"
-	informers "k8s.io/sample-controller/pkg/client/informers/externalversions"
+	samplecontroller "github.com/aerogear/mobile-config-controller/pkg/apis/samplecontroller/v1alpha1"
+	"github.com/aerogear/mobile-config-controller/pkg/client/clientset/versioned/fake"
+	informers "github.com/aerogear/mobile-config-controller/pkg/client/informers/externalversions"
 )
 
 var (
@@ -92,7 +92,7 @@ func (f *fixture) newController() (*Controller, informers.SharedInformerFactory,
 		k8sI.Apps().V1().Deployments(), i.Samplecontroller().V1alpha1().Foos())
 
 	c.foosSynced = alwaysReady
-	c.deploymentsSynced = alwaysReady
+	c.secretSynced = alwaysReady
 	c.recorder = &record.FakeRecorder{}
 
 	for _, f := range f.fooLister {
